@@ -1,0 +1,66 @@
+#define USE_MQTT 1
+#define USE_HTTPREQ 1
+#define USE_BLESERVER 1
+#define USE_BLECLIENT 0
+
+#define SECURE_MQTT 0
+#define SECURE_WEBSERVER 0
+#define SECURE_HTTPREQ 0
+
+RAM:   [==        ]  23.3% (used 76488 bytes from 327680 bytes)
+Flash: [==        ]  21.4% (used 1796137 bytes from 8388608 bytes)
+
+================
+#define USE_MQTT 1
+#define USE_HTTPREQ 1
+#define USE_BLESERVER 0
+#define USE_BLECLIENT 0
+
+#define SECURE_MQTT 0
+#define SECURE_WEBSERVER 0
+#define SECURE_HTTPREQ 0
+
+RAM:   [==        ]  22.9% (used 75120 bytes from 327680 bytes)
+Flash: [==        ]  20.0% (used 1673857 bytes from 8388608 bytes)
+=================
+
+#define USE_MQTT 0
+#define USE_HTTPREQ 0
+#define USE_BLESERVER 0
+#define USE_BLECLIENT 0
+
+#define SECURE_MQTT 0
+#define SECURE_WEBSERVER 0
+#define SECURE_HTTPREQ 0
+
+RAM:   [==        ]  18.5% (used 60712 bytes from 327680 bytes)
+Flash: [==        ]  19.2% (used 1606929 bytes from 8388608 bytes)
+==================
+#define USE_MQTT 1
+#define USE_HTTPREQ 0
+#define USE_BLESERVER 0
+#define USE_BLECLIENT 0
+
+#define SECURE_MQTT 1
+#define SECURE_WEBSERVER 0
+#define SECURE_HTTPREQ 0
+
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  22.9% (used 75176 bytes from 327680 bytes)
+Flash: [==        ]  19.9% (used 1665485 bytes from 8388608 bytes)
+==================
+
+*** CONFIG_BT_ENABLED = 0 
+
+#define USE_MQTT 1
+#define USE_HTTPREQ 0
+#define USE_BLESERVER 0
+#define USE_BLECLIENT 0
+
+#define SECURE_MQTT 1
+#define SECURE_WEBSERVER 0
+#define SECURE_HTTPREQ 0
+
+
+RAM:   [==        ]  18.3% (used 59844 bytes from 327680 bytes)
+Flash: [==        ]  15.3% (used 1280737 bytes from 8388608 bytes)
